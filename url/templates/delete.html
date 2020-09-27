@@ -1,0 +1,11 @@
+Delete the following URLs:
+{% for x in context_obj %}
+<ul>
+    <li>
+        {{x.long_url}} --> <a href='{{x.get_absolute_url}}'>
+        <button type="button" class="btn btn-outline-primary">Delete</button>
+        </a><br/>
+    </li>
+</ul>
+{% endfor %}
+

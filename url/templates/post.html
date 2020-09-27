@@ -1,0 +1,7 @@
+<h3> Create tokens for long URL's </h3>
+<form method="POST"> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>
+<br>
+Shorter URL: <a href="/goto/{{a}}">/goto/{{a}}</a>

@@ -1,0 +1,8 @@
+<u>Following are the list of long URL's and their respective short URLs:</u>
+{% for x in context_obj %}
+<ul>
+	<li>
+        {{x.long_url}} --- <a href="/goto/{{x.short_url}}">/goto/{{x.short_url}}</a>" <br>
+    </li>
+</ul>
+{% endfor %}

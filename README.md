@@ -1,6 +1,3 @@
-# django-url-shortner-app
-A URL shortener app built using Django.
-
 # About the application
 This is a Django based URL shortener app which  shortens the URL and still redirects to the required page.
 
@@ -8,8 +5,8 @@ This is a Django based URL shortener app which  shortens the URL and still redir
 
 ### Using Docker
 ```
-docker-compose build
-docker-compose up
+> docker-compose build
+> docker-compose up
 ```
 ### Using Git
 ```
